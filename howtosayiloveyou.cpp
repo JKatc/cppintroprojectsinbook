@@ -44,6 +44,10 @@ int main()
     {
         cout <<"jag älskar dig";
     }
+    else if (language == "Filipino" || language == "filipino")
+    {
+        cout <<"mahal kita";
+    }
 
     if (language == "English" || language =="english")
     {
