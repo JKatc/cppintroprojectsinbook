@@ -12,6 +12,7 @@ string movie;
 string game;
 string movieGenre;
 string season;
+string sport;
 
 int main()
 {
@@ -35,10 +36,12 @@ int main()
     getline (cin, game);
     cout << "What is your favorite movie genre?" << endl;
     getline (cin, movieGenre);
-    cout << "What is your favorite season?" << endl;
+    cout << "What is your favorite season?\n";
     getline (cin, season);
+    cout << "What is your favorite sport?\n";
+    getline (cin, sport);
     
     cout << "Hello " + name + "." + " You are " + age + " and your favorite color is " + color + "." + " You enjoy " + food + "." + " You would like to own a " + animal + "." + " I think you would like to visit " + country + " and you would like to see " + movie + "." + " I bet you are so excited for " + holiday + "." + " Lets play " + game + "." << endl;
-    cout << "Your favorite movie genre is " + movieGenre + "." + " Your favorite season is " + season + "." << endl;
+    cout << "Your favorite movie genre is " + movieGenre + "." + " Your favorite season is " + season + "." + " Your favorite sport is " + sport + "." << endl;
     return 0;
 }
