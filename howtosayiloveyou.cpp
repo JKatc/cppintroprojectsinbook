@@ -48,6 +48,10 @@ int main()
     {
         cout <<"mahal kita";
     }
+    else if (language == "Irish" || language == "irish")
+    {
+        cout <<"Is breá liom thú";
+    }
 
     if (language == "English" || language =="english")
     {
